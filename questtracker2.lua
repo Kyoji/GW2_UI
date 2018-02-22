@@ -116,14 +116,14 @@ function gw_load_questtracker()
 	GwQuestTracker:RegisterEvent("QUEST_COMPLETE");
 	GwQuestTracker:RegisterEvent("QUEST_FINISHED");
 	GwQuestTracker:RegisterEvent("QUEST_ITEM_UPDATE");
-	GwQuestTracker:RegisterEvent("QUEST_LOG_UPDATE");
+	GwQuestTracker:RegisterEvent("UNIT_QUEST_LOG_CHANGED");
 	GwQuestTracker:RegisterEvent("QUEST_REMOVED");
 	GwQuestTracker:RegisterEvent("QUESTLINE_UPDATE");
 	GwQuestTracker:RegisterEvent("UNIT_QUEST_LOG_CHANGED");
 	GwQuestTracker:RegisterEvent("QUESTTASK_UPDATE");
 	GwQuestTracker:RegisterEvent("TASK_PROGRESS_UPDATE");
     
-    GwQuestTracker:RegisterEvent("QUEST_LOG_UPDATE");
+    GwQuestTracker:RegisterEvent("UNIT_QUEST_LOG_CHANGED");
 	GwQuestTracker:RegisterEvent("TRACKED_ACHIEVEMENT_LIST_CHANGED");
 	GwQuestTracker:RegisterEvent("QUEST_WATCH_LIST_CHANGED");
 	GwQuestTracker:RegisterEvent("QUEST_AUTOCOMPLETE");

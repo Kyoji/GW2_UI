@@ -214,7 +214,7 @@ function gw_register_bonusObjectiveFrame()
         end)
     
     
-    GwQuesttrackerContainerBonusObjectives:RegisterEvent("QUEST_LOG_UPDATE");
+    GwQuesttrackerContainerBonusObjectives:RegisterEvent("UNIT_QUEST_LOG_CHANGED");
     GwQuesttrackerContainerBonusObjectives:RegisterEvent("QUESTTASK_UPDATE");
 	GwQuesttrackerContainerBonusObjectives:RegisterEvent("TASK_PROGRESS_UPDATE");
     

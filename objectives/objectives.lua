@@ -681,7 +681,7 @@ function gw_load_questTracker()
     GwQuestTrackerScroll:SetScrollChild(GwQuestTrackerScrollChild)
     
 
-    GwQuesttrackerContainerQuests:RegisterEvent('QUEST_LOG_UPDATE')
+    GwQuesttrackerContainerQuests:RegisterEvent('UNIT_QUEST_LOG_CHANGED')
     GwQuesttrackerContainerQuests:RegisterEvent("QUEST_ITEM_UPDATE");
 
 	GwQuesttrackerContainerQuests:RegisterEvent("QUEST_REMOVED");
